@@ -486,6 +486,7 @@ display: none;
 			background-image: url(images/back-desktop.jpg) ;
 			background-repeat: no-repeat;
 			background-size: cover;
+			background-attachment: fixed;
 		}
 												/* header */
 		header {
