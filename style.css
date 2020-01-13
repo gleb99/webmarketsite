@@ -329,7 +329,7 @@ display: none;
 		}
 		.electronics:hover h6 {
 			position: absolute;
-			top: 4.6vw;
+			top: 30%;
 		}
 		.electronics:hover span.el {
 			position: relative;
@@ -362,7 +362,7 @@ display: none;
 		}
 		.computers:hover h6 {
 			position: absolute;
-			top: 4.6vw;
+			top: 30%;
 		}
 		.computers:hover span.xp {
 			position: relative;
@@ -394,7 +394,7 @@ display: none;
 		}
 		.tech:hover h6 {
 			position: absolute;
-			top: 4.6vw;
+			top: 30%;
 		}
 												/* repair_hover */
 		.repair:hover .images{
@@ -421,7 +421,7 @@ display: none;
 		}
 		.repair:hover h6 {
 			position: absolute;
-			top: 4.6vw;
+			top: 30%;
 		}
 												/* home_hover */
 		.home:hover .images{
@@ -448,7 +448,7 @@ display: none;
 		}
 		.home:hover h6 {
 			position: absolute;
-			top: 4.6vw;
+			top: 30%;
 		}
 		.home:hover span.bosch {
 			position: relative;
@@ -500,16 +500,21 @@ display: none;
 		}
 		.menu2 {
 			float: right;
-			padding-top: 30px;
-			padding-right: 68px;
-			padding-left: 36px;
+			margin-top: 37px;
+			padding-top: 14px;
+			padding-bottom: 14px;
+			padding-right: 14px;
+			margin-right: 58px;
+			padding-left: 14px;
+			margin-left: 30px;
+			background-color: #F44242;
 		}
 		.search2 {
 			float: right;
-			padding-top: 30px; 
+			padding-top: 48px; 
 		}
 		.Google2 {
-			padding-top: 30px;
+			padding-top: 47px;
 			padding-left: 68px;;
 		}
 		.centr_text {
@@ -520,7 +525,7 @@ display: none;
 			line-height: 23px;
 			color: #FFFFFF;
 			text-align: center;
-			padding-top: 30px;
+			padding-top: 47px;
 			word-spacing: 10px;
 		}
 		.hr1, .hr2, .hr3 {
@@ -609,6 +614,8 @@ display: none;
 			display: block;
 			order: 2;
 			padding-right: 2vw;
+			width: 8vw;
+			
 		}
 		.electronics:hover {
 			background-color: #4285F4;
@@ -621,7 +628,7 @@ display: none;
 			font-family: Rubik;
 			font-style: normal;
 			font-weight: normal;
-			font-size: 12px;
+			font-size: 16px;
 			line-height: 23px;
 			color: #FFFFFF;
 			position: relative;
@@ -629,18 +636,19 @@ display: none;
 		}
 		.electronics:hover h6 {
 			position: absolute;
-			bottom: 7.6vw;
+			top: 30%;
 		}
 		.electronics:hover span.el {
 			position: relative;
 			top: 30px;
-			right:58px;
+			right:77px;
 		}
 													/* computers_hover */
 		.computers:hover .images{
 			display: block;
 			order: 2;
 			padding-right: 2vw;
+			width: 8vw;
 		}
 		.computers:hover {
 			background-color: #F44242;
@@ -661,7 +669,7 @@ display: none;
 		}
 		.computers:hover h6 {
 			position: absolute;
-			top: 2.6vw;
+			top: 30%;
 		}
 		.computers:hover span.xp {
 			position: relative;
@@ -673,6 +681,7 @@ display: none;
 			display: block;
 			order: 2;
 			padding-right: 2vw;
+			width: 8vw;
 		}
 		.tech:hover {
 			background-color: #4285F4;
@@ -693,13 +702,14 @@ display: none;
 		}
 		.tech:hover h6 {
 			position: absolute;
-			top: 2.6vw;
+			top: 30%;
 		}
 													/* repair_hover */
 		.repair:hover .images{
 			display: block;
 			order: 2;
 			padding-right: 2vw;
+			width: 8vw;
 		}
 		.repair:hover {
 			background-color: #F44242;
@@ -720,13 +730,14 @@ display: none;
 		}
 		.repair:hover h6 {
 			position: absolute;
-			top: 2.6vw;
+			top: 30%;
 		}
 														/* home_hover */
 		.home:hover .images{
 			display: block;
 			order: 2;
 			padding-right: 2vw;
+			width: 8vw;
 		}
 		.home:hover {
 			background-color: #4285F4;
@@ -747,11 +758,11 @@ display: none;
 		}
 		.home:hover h6 {
 			position: absolute;
-			top: 2.6vw;
+			top: 30%;
 		}
 		.home:hover span.bosch {
 			position: relative;
-			top: 25px;
+			top: 30px;
 			right: 51px;
 		}
 												/* auto_hover */
@@ -759,6 +770,7 @@ display: none;
 			display: block;
 			order: 2;
 			padding-right: 2vw;
+			width: 8vw;
 		}
 		.auto:hover {
 			background-color:  #F44242;
