@@ -1,6 +1,7 @@
 
 $('#close').click(function(){
   $('#search_div').hide('slow');
+  $('#wrapper').css('display','block');
     }
   );
 
@@ -12,6 +13,7 @@ $('#close_menu').click(function(){
   $('#search').click(function(){
     $('#search_div').show('slow',function() {
       $('#search_div').attr('style','display: flex');
+      $('#wrapper').css('display','none');
        }
     );
   }
@@ -20,6 +22,7 @@ $('#close_menu').click(function(){
 $('#search2').click(function(){
   $('#search_div').show('slow',function() {
     $('#search_div').attr('style','display: flex');
+    $('#wrapper').css('display','none');
       }
     );
   }
