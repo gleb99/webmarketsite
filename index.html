@@ -8,10 +8,10 @@
   <title>Document</title>
 </head>
 <body>
-   <div class="wrapper">
+   <div id='wrapper' class="wrapper">
       <header>
-		<img class="menu"	src="images/menu.png" alt="menu">
-		<img class="search" src="images/search.png" alt="search">
+		<img class="menu" id="menu"	src="images/menu.png" alt="menu">
+		<img id="search" class="search" src="images/search.png" alt="search">
 		<img class="Google" src="images/Google.png" alt="Google">	
 		<div class="hr1">
 			<img class="Google2" src="images/Google.png" alt="Google">
@@ -20,8 +20,8 @@
 			<p class="centr_text">Главная Каталог Проекты <span>О компании</span> Контакты</p>
 		</div>
 		<div class="hr3">
-			<img class="menu2"	src="images/menu.png" alt="menu">
-			<img class="search2" src="images/search.png" alt="search">
+			<img class="menu2"  id="menu2"	src="images/menu.png" alt="menu">
+			<img id="search2" class="search2" src="images/search.png" alt="search">
 			
 		</div>
       </header>
@@ -80,5 +80,27 @@
 				</div>
 			</footer>
    </div> 
+   <div class="search_div" id="search_div">
+	<img id="close" class="close"src="images/close.png" alt="close">
+	<input type="text" class="inp" value='Авто'	>
+	<div class="find_button">
+		<div class="find_button-wrapper">
+			<img class="find-img"  src="images/search.png" alt="search">
+			<p class="">Найти</p>
+		</div>
+	</div>
+</div>
+	<div class="menu_list" id="menu_list">
+		<img id="close_menu" class="close" src="images/close.png" alt="close">
+		<div class="text-wrapper" id='text-wrapper'>
+			<p class="text">Главная</p>
+			<p class="text">Каталог</p>
+			<p class="text">Проекты</p>
+			<p class="text">О компании</p>
+			<p class="text">Контакты</p>
+		</div>
+	</div>
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
